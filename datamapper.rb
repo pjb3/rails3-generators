@@ -15,7 +15,7 @@ module Datamapper
       protected
 
         # Datamapper does not care if migrations have the same name as long as
-        # they have different ids. 
+        # they have different ids.
         #
         def migration_exists?(dirname, file_name) #:nodoc:
           false
